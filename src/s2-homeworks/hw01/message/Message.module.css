@@ -1,31 +1,54 @@
 .message {
-
+  align-self: flex-end;
+  max-width: 70%;
+  margin-bottom: 30px;
 }
 
 .imageAndText {
-
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .imageAndText img {
-
+  width: 48px;
+  margin-left: 20px;
+  margin-top: auto;
 }
 
 .text {
-
+  position: relative;
+  color: white;
+  background-color: rgba(0, 102, 204, 1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 12px;
 }
 
 .text:after {
-
+  content: "";
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 20px solid rgba(0, 102, 204, 1);
 }
 
 .name {
-
+  font-weight: 600;
+  align-self: flex-end;
+  margin-bottom: 4px;
 }
 
 .messageText {
-
 }
 
 .time {
-
+    font-size: 12px;
+    font-weight: 600;
+    text-align: right;
+    margin: 5px 8px 0 0;
 }
