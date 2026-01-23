@@ -1,20 +1,32 @@
 .input:focus {
+    outline: none;
+    border: 1px solid rgb(148, 148, 148);
 }
 
 .input {
+    padding: 0 8px;
+    width: 372px;
+    height: 36px;
+    border-radius: 1px;
+    border: 1px solid rgba(209, 209, 209, 1);
 }
 
 .inputWrapper {
-}
-
-.superInput {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .errorInput {
+    border: 1px solid red;
 }
 
 .errorInput:focus {
+    border: 2px solid red;
+    outline: none;
 }
 
 .error {
+    font-size: 10px;
+    color: red;
+    margin-bottom: 5px;
 }
