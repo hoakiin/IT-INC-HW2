@@ -1,3 +1,32 @@
 .loader {
-    /*свг и/или анимация*/
+  width: 40px;
+  height: 40px;
+
+  background-image: url("./loaders/loader1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+ animation: loaderAnimation 0.5s steps(4) infinite;
+}
+
+@keyframes loaderAnimation {
+  0% {
+    background-image: url("./loaders/loader1.svg");
+  }
+
+  25% {
+    background-image: url("./loaders/loader2.svg");
+  }
+
+  50% {
+    background-image: url("./loaders/loader3.svg");
+  }
+
+  75% {
+    background-image: url("./loaders/loader4.svg");
+  }
+
+  100% {
+    background-image: url("./loaders/loader1.svg");
+  }
 }
