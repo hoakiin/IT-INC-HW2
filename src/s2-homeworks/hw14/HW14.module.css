@@ -1,7 +1,13 @@
 .tech {
-
+  margin-bottom: 8px;
 }
 
 .loading {
+  text-align: right;
+  margin-top: 10px;
+  color: rgba(77, 77, 77, 1);
+}
 
+.searchBlock {
+  width: fit-content;
 }
